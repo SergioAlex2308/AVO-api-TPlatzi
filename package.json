@@ -1,4 +1,6 @@
-{
+{ 
+  "name": "API AVO y TailwindCSS",
+  "homepage": "https://github.com/SergioAlex2308/AVO-api-TPlatzi",
   "scripts": {
     "start": "snowpack dev",
     "build": "snowpack build",
