@@ -7,6 +7,13 @@ const url = "https://platzi-avo.vercel.app";
 
 const appNode = document.querySelector('#app');
 
+//Event Delegation - Patrón Delegación de eventos 
+appNode.addEventListener('click', (e) => {
+	if(e.target.nodeName === 'H2') {
+		window.alert('Hola');
+	}
+});
+
 const formatPrice = (price) => {
 
 	const newPrice = new window.Intl.NumberFormat('es', {

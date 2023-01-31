@@ -5,6 +5,6 @@ module.exports = {
     src: '/_dist_',
   },
   buildOptions: {
-    baseUrl: '',
+    baseUrl: 'https://SergioAlex2308.github.io/AVO-api-TPlatzi',
   },
 }
